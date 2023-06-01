@@ -9,12 +9,11 @@
             below:
           </p>
 
-          <p>{{}}</p>
+          <p>{{2+2 * 123 / 4}}</p>
         </div>
         <div class="border p-1">
           <p>
-            Use interpolation to get the customary Hello, World! to display on
-            the screen. Don't forget your quotes
+            {{ 'hello world' }}
           </p>
           <p>{{}}</p>
         </div>
